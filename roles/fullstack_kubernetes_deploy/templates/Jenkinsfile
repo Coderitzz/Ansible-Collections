@@ -9,7 +9,7 @@ environment {
 stages {
     stage('Clone Kubernetes Repo') {
         steps {
-            git branch: 'main', url: 'https://github.com/lavatech321/Kubernetes_CICD_Pipeline.git'
+            git branch: 'main', url: 'https://github.com/Coderitzz/Ansible-Collections.git'
         }
     }
 
